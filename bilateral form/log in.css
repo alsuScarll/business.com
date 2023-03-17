@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(255, 82, 139),rgb(39, 6, 185));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 25%;
+    height: 60%;
+    padding: 35px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px -8px black;
+    text-align: center;
+}
+
+form > h1 {
+    margin: 10px 0;
+    color: black;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logIn__signUp__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logIn {
+    width: 50%;
+    background-image: linear-gradient(to left, rgb(255, 82, 139),rgb(39, 6, 185));
+}
+
+.logIn > a {
+    color: whitesmoke;
+}
+
+.signUp {
+    width: 50%;
+    background-color: rgba(148, 148, 148, 0.159);
+}
+
+.signUp > a {
+    color: black;
+}
+
+form > div {
+    margin: 15px;
+}
+
+div.inp > input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+.address__form {
+    color: rgb(254, 50, 118);
+    margin-right: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submit__logIn {
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(255, 82, 139),rgb(39, 6, 185));
+    margin-top: 20px;
+}
+
+.submit__logIn > a {
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*@media only screen and (max-width: 2500px) {
+    form {
+    width: 20%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    form {
+    width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    form {
+    width: 25%;
+    }
+
+    h1 {
+    font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    form {
+    width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    form {
+    width: 30%;
+    }
+
+    h1 {
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    button {
+    width: 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    form {
+    width: 40%;
+    }
+
+    button {
+    width: 18%;
+    }
+
+    a {
+    font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    form {
+    width: 45%;
+    }
+
+    button {
+    width: 16%;
+    }
+
+    a {
+    font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    form {
+    width: 50%;
+    }
+
+    button {
+    width: 15%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    form {
+    width: 55%;
+    }
+
+    button {
+    width: 13%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    form {
+    width: 63%;
+    }
+
+    h1 {
+    font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    form {
+    width: 70%;
+    }
+
+    h1 {
+    font-size: 20px;
+    }
+
+    button {
+    width: 10%;
+    }
+
+    a {
+    font-size: 12px;
+    }
+
+    ::placeholder {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    form {
+    width: 75%;
+    }
+
+    h1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 18px;
+    }
+
+    button {
+    width: 8%;
+    }
+
+    a {
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+
+    .address__form {
+    margin-right: 0;
+    }
+
+    ::placeholder {
+    font-size: 15px;
+    }
+}*/

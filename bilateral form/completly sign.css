@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(255, 82, 139),rgb(39, 6, 185));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signUp__complet {
+    background-color: whitesmoke;
+    width: 25%;
+    height: 30%;
+    padding: 35px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px -8px black;
+    text-align: center;
+}
+
+.signUp__complet > h1 {
+    margin: 10px 0;
+    color: black;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signUp__complet__p {
+    margin: 20px 0;
+    color: black;
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(255, 82, 139),rgb(39, 6, 185));
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button > a {
+    color: whitesmoke;
+}

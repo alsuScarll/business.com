@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/836/759/original/purple-color-gradient-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+body {
+    text-shadow: 0 0 12px black;
+    animation-name: anime1;
+    animation-duration: 2s;
+}
+
+@keyframes anime1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    cursor: default;
+    color: rgb(205, 205, 205);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact__para {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.context__para {
+    font-size: 15px;
+    font-weight: 800;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.inpBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inpBtn > input {
+    width: 88%;
+    padding: 15px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px 5px gray;
+}
+
+.inpBtn > button {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+#returnBtn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    color: white;
+    padding: 12px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 270px;
+}
+
+#returnBtn > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
